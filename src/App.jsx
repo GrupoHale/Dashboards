@@ -11,7 +11,7 @@ import { buildDashboard, extractFuellingItems } from "./utils/fuelDashboard.js";
 import logo from '../public/favicon.png';
 
 
-const API_URL = "/ssx";
+const API_URL = "/api/ssx";
 
 export default function App() {
   const [fuellings, setFuellings] = useState([]);
