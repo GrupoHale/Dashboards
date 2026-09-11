@@ -36,7 +36,7 @@ app.post('/ssx', async (req, res) => {
         res.status(201).json(dadosAPI);
 
     } catch (error) {
-        console.error("Erro ao processar POST:", erroAPI);
+        console.error("Erro ao processar POST:", error);
 
         res.status(500).json({erro: "Erro interno no servidor"});
     }
