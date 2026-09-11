@@ -13,6 +13,10 @@
   ],
   "routes": [
     {
+      "src": "/api/fuel/(.*)",
+      "dest": "/api/server.js"
+    },
+    {
       "src": "/api/(.*)",
       "dest": "/api/$1"
     },
